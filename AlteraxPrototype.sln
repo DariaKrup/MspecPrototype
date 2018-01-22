@@ -37,6 +37,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AngularClient", "AngularCli
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{226534DA-4E12-4649-A690-190D257F5ED0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4InMem", "IdentityServer4Mem\IdentityServer4InMem.csproj", "{AF9F3055-3A93-4818-9E4C-46814A7B1A69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{F8BCD4D8-DD22-4EBA-B01A-EDBDC613E74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8BCD4D8-DD22-4EBA-B01A-EDBDC613E74C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8BCD4D8-DD22-4EBA-B01A-EDBDC613E74C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AF9F3055-3A93-4818-9E4C-46814A7B1A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9F3055-3A93-4818-9E4C-46814A7B1A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9F3055-3A93-4818-9E4C-46814A7B1A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9F3055-3A93-4818-9E4C-46814A7B1A69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{36570292-F77F-44B1-8980-9CB2FD99578B} = {9B5540B0-79C5-49BE-ABC8-83805779F029}
 		{21043D3C-A92A-47E3-8829-9122AA962498} = {C53C0471-23C2-4876-A4AD-E252CD648F04}
 		{F8BCD4D8-DD22-4EBA-B01A-EDBDC613E74C} = {226534DA-4E12-4649-A690-190D257F5ED0}
+		{AF9F3055-3A93-4818-9E4C-46814A7B1A69} = {9B5540B0-79C5-49BE-ABC8-83805779F029}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7916F268-A566-451E-AFBA-283A500E14AD}
