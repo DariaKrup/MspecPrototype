@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerMemory", "IdentityServerMemory\IdentityServerMemory.csproj", "{F827A710-A545-4CAC-9CA2-87DC6231C0F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerPersistent", "IdentityServerPersistent\IdentityServerPersistent.csproj", "{36570292-F77F-44B1-8980-9CB2FD99578B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{9B5540B0-79C5-49BE-ABC8-83805779F029}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resource", "Resource", "{C53C0471-23C2-4876-A4AD-E252CD648F04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthorMaintenanceResource", "AuthorMaintenanceResource\AuthorMaintenanceResource.csproj", "{21043D3C-A92A-47E3-8829-9122AA962498}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AngularClient", "AngularClient\", "{F8BCD4D8-DD22-4EBA-B01A-EDBDC613E74C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49260"
+		Debug.AspNetCompiler.PhysicalPath = "AngularClient\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49260\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49260"
+		Release.AspNetCompiler.PhysicalPath = "AngularClient\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49260\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49260"
+		SlnRelativePath = "AngularClient\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{226534DA-4E12-4649-A690-190D257F5ED0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F827A710-A545-4CAC-9CA2-87DC6231C0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F827A710-A545-4CAC-9CA2-87DC6231C0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F827A710-A545-4CAC-9CA2-87DC6231C0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F827A710-A545-4CAC-9CA2-87DC6231C0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36570292-F77F-44B1-8980-9CB2FD99578B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36570292-F77F-44B1-8980-9CB2FD99578B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36570292-F77F-44B1-8980-9CB2FD99578B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36570292-F77F-44B1-8980-9CB2FD99578B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21043D3C-A92A-47E3-8829-9122AA962498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21043D3C-A92A-47E3-8829-9122AA962498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21043D3C-A92A-47E3-8829-9122AA962498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21043D3C-A92A-47E3-8829-9122AA962498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8BCD4D8-DD22-4EBA-B01A-EDBDC613E74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BCD4D8-DD22-4EBA-B01A-EDBDC613E74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BCD4D8-DD22-4EBA-B01A-EDBDC613E74C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BCD4D8-DD22-4EBA-B01A-EDBDC613E74C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F827A710-A545-4CAC-9CA2-87DC6231C0F6} = {9B5540B0-79C5-49BE-ABC8-83805779F029}
+		{36570292-F77F-44B1-8980-9CB2FD99578B} = {9B5540B0-79C5-49BE-ABC8-83805779F029}
+		{21043D3C-A92A-47E3-8829-9122AA962498} = {C53C0471-23C2-4876-A4AD-E252CD648F04}
+		{F8BCD4D8-DD22-4EBA-B01A-EDBDC613E74C} = {226534DA-4E12-4649-A690-190D257F5ED0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7916F268-A566-451E-AFBA-283A500E14AD}
+	EndGlobalSection
+EndGlobal
