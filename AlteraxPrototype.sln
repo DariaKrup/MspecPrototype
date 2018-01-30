@@ -39,6 +39,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{226534
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer4InMem", "IdentityServer4Mem\IdentityServer4InMem.csproj", "{AF9F3055-3A93-4818-9E4C-46814A7B1A69}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthorMaintenenceResource.UnitTest", "AuthorMaintenenceResource.UnitTest\AuthorMaintenenceResource.UnitTest.csproj", "{6143CE3D-0CCA-4580-8992-95562E90DD22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorMaintenenceResource.Data", "AuthorMaintenenceResource.Data\AuthorMaintenenceResource.Data.csproj", "{EA9F99C1-69C9-4D43-818C-5D849C62D78B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,6 +68,14 @@ Global
 		{AF9F3055-3A93-4818-9E4C-46814A7B1A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF9F3055-3A93-4818-9E4C-46814A7B1A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF9F3055-3A93-4818-9E4C-46814A7B1A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6143CE3D-0CCA-4580-8992-95562E90DD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6143CE3D-0CCA-4580-8992-95562E90DD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6143CE3D-0CCA-4580-8992-95562E90DD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6143CE3D-0CCA-4580-8992-95562E90DD22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA9F99C1-69C9-4D43-818C-5D849C62D78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9F99C1-69C9-4D43-818C-5D849C62D78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9F99C1-69C9-4D43-818C-5D849C62D78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9F99C1-69C9-4D43-818C-5D849C62D78B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
