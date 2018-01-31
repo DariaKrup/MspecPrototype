@@ -32,7 +32,7 @@
             _result = _customerService.Save(_customer);                  
         };
 
-        Machine.Specifications.It should_have_Persisted_customer = () => {
+        Machine.Specifications.It should_have_persisted_customer = () => {
             _mockRepository.Verify(q => q.Save(Moq.It.Is<Customer>(fn => fn.Name.Equals(_result.Name) && fn.Id == _result.Id)), Times.Once);
         };
 
