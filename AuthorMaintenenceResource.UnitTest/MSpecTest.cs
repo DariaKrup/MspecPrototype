@@ -12,7 +12,7 @@
     using FluentAssertions;
 
     [Subject("Authentication")]
-    public class When_authenticating_an_admin_user
+    public class WhenCreatingACustomer
     {
         private static Mock<IRepository<Customer>>  _mockRepository;
         private static CustomerService _customerService;
@@ -32,11 +32,11 @@
             _result = _customerService.Save(_customer);                  
         };
 
-        Machine.Specifications.It should_indicate_the_users_role = () => {
+        Machine.Specifications.It should_have_Persisted_customer = () => {
             _mockRepository.Verify(q => q.Save(Moq.It.Is<Customer>(fn => fn.Name.Equals(_result.Name) && fn.Id == _result.Id)), Times.Once);
         };
 
-        Machine.Specifications.It should_not_return_null = () => {
+        Machine.Specifications.It should_instantiate_customer_service = () => {
             _customerService.Should().NotBeNull();
         };
     }
